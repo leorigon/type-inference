@@ -1,0 +1,16 @@
+cradle:
+  stack:
+    - path: "./src/Main.hs"
+      component: "type-inference:exe:type-inference"
+
+    - path: "./src/Env.hs"
+      component: "type-inference:exe:type-inference"
+
+    - path: "./src/Type.hs"
+      component: "type-inference:exe:type-inference"
+
+    - path: "./src/Parser.hs"
+      component: "type-inference:exe:type-inference"
+
+    - path: "./src/Lambda.hs"
+      component: "type-inference:exe:type-inference"
